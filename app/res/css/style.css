@@ -1,0 +1,236 @@
+html {
+	overflow-y: scroll;
+}
+
+body {
+	/* background: #eee url('../res/img/sound-wave-bg.png') 0px 17em repeat-x; */
+	background-color: #eee;
+	color: #000;
+
+	font-family: 'Droid Sans', arial, serif;
+	font-size: 100%;
+
+	padding-top: 1em;
+	padding-bottom: 3em;
+}
+
+.wrapper {
+	margin: 0 auto;
+    width: 950px;
+	padding: 20px;
+	background: #fff;
+
+	-webkit-box-shadow: rgba(0,0,0,0.1) 0px 0px 10px;
+	-moz-box-shadow: rgba(0,0,0,0.1) 0px 0px 10px;
+}
+
+.container {
+	position: relative;
+}
+
+
+
+h1, h2, h3, h4, h5, h6 {
+	color: #111;
+}
+
+h1 {
+	color: #000;
+	/* font-weight: bold; */
+}
+
+h2,
+h3
+{
+	/*
+	color: #000;
+	font-weight: bold;
+	font-variant: small-caps;
+	*/
+	color: #aaa;
+}
+
+h1#title {
+	color: #ddd;
+}
+
+h1#title b {
+	color: #bbb;
+}
+
+
+h2.slogan {
+	font-size: 125%;
+}
+
+img.icon {
+	position: relative;
+	top: 0.12em;
+}
+
+a {
+	/* color: orange; */
+}
+
+.qrcode {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.video-block h3 {
+	height: 2em;
+}
+
+.audio-player {
+	/* margin-top: 1em; */
+}
+
+.audio-description {
+	margin-top: 0.5em;
+	font-size: 85%;
+}
+
+.video-block {
+	margin-bottom: 2em;
+}
+
+button,
+a.button {
+	cursor: pointer;
+
+	display: inline-block;
+
+	padding: 0.25em 1em 0.25em 0.5em;
+
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-width: 1px;
+	border-style: solid;
+
+	-webkit-box-shadow: inset rgba(255,255,255,0.25) 0px 1px 2px;
+	-moz-box-shadow: inset rgba(255,255,255,0.25) 0px 1px 2px;
+	background-image: -webkit-gradient(linear, center top, center bottom, from(#0569a9), to(#003c62));
+	background-image: -moz-linear-gradient(90deg, #003c62, #0569A9);
+	background-color:#0062A0;
+	border-color:#003759;
+
+	text-decoration: none;
+
+	zoom: 1;
+
+	color:white;
+	text-shadow: 1px 1px black;
+	font-weight: bold;
+
+	opacity: 0.9;
+}
+
+button:hover,
+a.button:hover {
+	color: white;
+	background-color: #003759;
+	opacity: 1.0;
+}
+
+button:active,
+a.button:active {
+	opacity: 1.0;
+
+	-webkit-box-shadow: inset rgba(0,0,0,0.25) 0px -1px 2px;
+	-moz-box-shadow: inset rgba(0,0,0,0.25) 0px -1px 2px;
+
+	background-image: -webkit-gradient(linear, center top, center bottom, from(#045498), to(#00304e));
+	background-image: -moz-linear-gradient(90deg, #00304e, #045498);
+	background-color:#0062A0;
+}
+
+button.light,
+a.button.light {
+	background-color: #d4d4d4 !important;
+	background-image: -webkit-gradient(linear, center top, center bottom, from(#e0e0e0), to(#d4d4d4));
+	background-image: -moz-linear-gradient(90deg, #d4d4d4, #e0e0e0);
+
+
+	border-color: #bdbdbd !important;
+	color: #fff !important;
+	text-shadow: 1px 1px #aaa;
+}
+
+/* ---------------------------------------------------------------------------------------------------- */
+
+.loading,
+.lightError {
+	text-align: center;
+	color: #aaa;
+}
+
+.loading {
+	color: #aaa;
+}
+
+.loading img {
+	position: relative;
+	top: 2px;
+}
+
+.lightError {
+	color: #f88;
+}
+
+
+#authButton {
+	float: right;
+}
+
+.profileLink {
+}
+
+#outputDiv,
+#dataControls {
+	font-size: 85%;
+}
+
+#dataControls {
+}
+
+#dataControls a.profile-link {
+	height: 1.4em;
+	overflow: hidden;
+}
+
+#dataControls a {
+	color: #888;
+	text-decoration: none;
+	display: block;
+
+	border-right: 1px solid #ddd;
+	padding: 0.1em 0 0.1em 0em;
+}
+
+#dataControls a:hover {
+	text-decoration: underline;
+}
+
+#dataControls a.selected {
+	color: #06c;
+	text-decoration: none;
+	
+	border: 1px solid #ddd;
+	border-right: none;
+
+	background-image: -moz-linear-gradient(0deg, #eee, #fff);
+
+	-webkit-border-top-left-radius: 3px;
+	-webkit-border-bottom-left-radius: 3px;
+	-moz-border-radius-topleft: 3px;
+	-moz-border-radius-bottomleft: 3px;
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+
+	padding: 0.1em 0 0.1em 0.5em;
+	margin-left: -0.5em;
+}
+
+
